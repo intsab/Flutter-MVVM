@@ -11,21 +11,21 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen>
     with SingleTickerProviderStateMixin {
-   late AnimationController animationController;
-   late Animation animation;
+   // late AnimationController animationController;
+   // late Animation animation;
 
   @override
   void initState() {
     super.initState();
     Firebase.initializeApp();
-    animationController =
-        AnimationController(duration: Duration(seconds: 5), vsync: this);
-    animation = ColorTween(begin: Colors.blue, end: Colors.white)
-        .animate(animationController);
-    animationController.forward();
-    animationController.addListener(() {
-      setState(() {});
-    });
+    // animationController =
+    //     AnimationController(duration: Duration(seconds: 5), vsync: this);
+    // animation = ColorTween(begin: Colors.blue, end: Colors.white)
+    //     .animate(animationController);
+    // animationController.forward();
+    // animationController.addListener(() {
+    //   setState(() {});
+    // });
 
     Future.delayed(
       const Duration(seconds: 4),
@@ -47,13 +47,13 @@ class _SplashScreenState extends State<SplashScreen>
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: animation.value,
+      color: Colors.black12,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           MaterialButton(
-            child: Text(
+            child: const Text(
               'Your Private Planet',
               textAlign: TextAlign.center,
               style: TextStyle(
