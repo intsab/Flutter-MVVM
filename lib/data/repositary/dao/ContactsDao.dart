@@ -4,7 +4,7 @@ import 'package:private_communication/data/DataModels/ContactModel.dart';
 @dao
 abstract class ContactsDao {
   @Query('SELECT * FROM ContactsModel')
-  Future<List<ContactsModel>> getAllMessages();
+  Future<List<ContactsModel>> getAllContacts();
 
   @Query('SELECT * FROM ContactsModel WHERE name = :name')
   Future<List<ContactsModel?>> searchContacts(String name);

@@ -106,7 +106,7 @@ class _CreateContactsScreenState extends State<CreateContactsScreen> {
 
   void saveContact(
       {required String name, required String number, String email = ''}) async {
-    ContactsViewModel().insertContact(ContactsModel(-1, name, number, email));
+    ContactsViewModel().insertContact(ContactsModel(null, name, number, email));
     Navigator.pop(context);
   }
 }

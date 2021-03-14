@@ -9,7 +9,7 @@ class ContactsViewModel {
   }
 
   Future<List<ContactsModel>> getContacts() async {
-    Future<List<ContactsModel>> contacts = _dataSource.getAllContact();
+    List<ContactsModel> contacts = await _dataSource.getAllContact();
     return contacts;
   }
 }

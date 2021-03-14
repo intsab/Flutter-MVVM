@@ -17,6 +17,8 @@ dependencies:
   fluttertoast: ^7.1.6
   flutter_easyloading: ^3.0.0
   floor: ^1.0.0
+  flutter_dialpad: ^1.0.0
+  flutter_phone_direct_caller: ^1.0.1
 
 dev_dependencies:
   flutter_test:

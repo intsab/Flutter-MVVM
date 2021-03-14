@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:private_communication/screens/callslogs/CallsLogScreen.dart';
 import 'package:private_communication/screens/contacts/ContactsScreen.dart';
-import 'package:private_communication/screens/messages/MessagesScreen.dart';
 
 class DashboardScreen extends StatefulWidget {
   @override
@@ -18,10 +17,10 @@ class _DashboardScreenState extends State<DashboardScreen> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: DefaultTabController(
-        length: 3,
+        length: 2,
         child: Scaffold(
           appBar: AppBar(
-            bottom: TabBar(
+            bottom: const TabBar(
               tabs: [
                 Tab(
                   icon: Icon(Icons.contact_phone),
@@ -31,19 +30,19 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   icon: Icon(Icons.phone_callback),
                   text: 'Call Logs',
                 ),
-                Tab(
-                  icon: Icon(Icons.message),
-                  text: 'Messages',
-                ),
+                // Tab(
+                //   icon: Icon(Icons.message),
+                //   text: 'Messages',
+                // ),
               ],
             ),
-            title: Text('Private Planet'),
+            title: const Text('Private Planet'),
           ),
           body: TabBarView(
             children: [
               ContactsScreen(),
               CallsLogScreen(),
-              MessagesScreen(),
+              // MessagesScreen(),
             ],
           ),
         ),

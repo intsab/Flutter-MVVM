@@ -11,22 +11,13 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen>
     with SingleTickerProviderStateMixin {
-   // late AnimationController animationController;
-   // late Animation animation;
+  // late AnimationController animationController;
+  // late Animation animation;
 
   @override
   void initState() {
     super.initState();
     Firebase.initializeApp();
-    // animationController =
-    //     AnimationController(duration: Duration(seconds: 5), vsync: this);
-    // animation = ColorTween(begin: Colors.blue, end: Colors.white)
-    //     .animate(animationController);
-    // animationController.forward();
-    // animationController.addListener(() {
-    //   setState(() {});
-    // });
-
     Future.delayed(
       const Duration(seconds: 4),
       () => {
@@ -52,20 +43,21 @@ class _SplashScreenState extends State<SplashScreen>
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          MaterialButton(
-            child: const Text(
-              'Your Private Planet',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 34,
-                color: Colors.amber,
-              ),
+          const Icon(
+            Icons.privacy_tip_outlined,
+            color: Colors.blueAccent,
+            size: 70,
+          ),
+          const Text(
+            'Your Private Planet',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 34,
+              color: Colors.blueAccent,
             ),
-            onPressed: () {},
           )
         ],
       ),
     );
   }
-
 }

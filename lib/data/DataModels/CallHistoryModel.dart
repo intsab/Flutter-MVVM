@@ -2,8 +2,8 @@ import 'package:floor/floor.dart';
 
 @entity
 class CallHistoryModel {
-  @primaryKey
-  final int id;
+  @PrimaryKey(autoGenerate: true)
+  final int? id;
   final int contacts_id;
   final String dateTime;
 

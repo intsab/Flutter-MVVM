@@ -19,7 +19,7 @@ class AppDataSource {
 
   Future<List<ContactsModel>> getAllContact() async {
     final database = await $FloorAppRepositary.databaseBuilder(dbName).build();
-    return database.contactsDao.getAllMessages();
+    return database.contactsDao.getAllContacts();
   }
 
   //Conversations Methods
