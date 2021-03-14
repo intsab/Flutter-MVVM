@@ -1,0 +1,28 @@
+name: private_communication
+description: Create Private contacts & Call them, Email them or send Sms
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: "^0.7.0"
+  firebase_auth: "^0.20.1"
+  cupertino_icons: ^1.0.2
+  fluttertoast: ^7.1.6
+  flutter_easyloading: ^3.0.0
+  floor: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  floor_generator: ^1.0.0
+  build_runner: ^1.11.5
+
+flutter:
+  uses-material-design: true

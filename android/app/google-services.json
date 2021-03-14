@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "904875880406",
+    "project_id": "privateplanet-b2988",
+    "storage_bucket": "privateplanet-b2988.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904875880406:android:2f41220a13381b13fefe77",
+        "android_client_info": {
+          "package_name": "com.intandif.private_communication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904875880406-86tki9mf13ubtnqaol92p5f0mesjqu9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkYSe8RjzkzozZ4EcUEGajNyyiP9BE8g4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904875880406-86tki9mf13ubtnqaol92p5f0mesjqu9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
