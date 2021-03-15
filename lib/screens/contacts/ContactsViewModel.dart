@@ -1,8 +1,8 @@
 import 'package:private_communication/data/DataModels/ContactModel.dart';
-import 'package:private_communication/data/datasource/AppDataSource.dart';
+import 'package:private_communication/data/repositary/DatabaseRepositary.dart';
 
 class ContactsViewModel {
-  var _dataSource = AppDataSource();
+  var _dataSource = DatabaseRepositary();
 
   void insertContact(ContactsModel contact) {
     _dataSource.insertContact(contact);

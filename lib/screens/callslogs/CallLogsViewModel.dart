@@ -1,8 +1,8 @@
 import 'package:private_communication/data/DataModels/CallHistoryModel.dart';
-import 'package:private_communication/data/datasource/AppDataSource.dart';
+import 'package:private_communication/data/repositary/DatabaseRepositary.dart';
 
 class CallLogsViewModel {
-  var _dataSource = AppDataSource();
+  var _dataSource = DatabaseRepositary();
 
   void insertCallLog(CallHistoryModel log) {
     _dataSource.insertCallLog(log);
