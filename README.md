@@ -15,6 +15,22 @@ Floor DB
 Firebase Auth Plugin
 
 ## Screenshots
+<table>
+  <tr>
+    <td>Splash Screen</td>
+     <td>Registration Screen</td>
+     <td>Login Screen</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="https://github.com/intsab/Flutter-MVVM/blob/master/ScreenShots/1-Splash.jpeg" alt="Splash Screen" width="250"/></td>
+    <td valign="top"><img src="https://github.com/intsab/Flutter-MVVM/blob/master/ScreenShots/2-Registration.jpeg" alt="Registration Screen" width="250"/>
+</td>
+    <td valign="top"><img src="https://github.com/intsab/Flutter-MVVM/blob/master/ScreenShots/3-Login.jpeg" alt="Login Screen" width="250"/>
+</td>
+  </tr>
+ </table>
+
+
 <img src="https://github.com/intsab/Flutter-MVVM/blob/master/ScreenShots/1-Splash.jpeg" alt="Splash Screen" width="250"/>
 <img src="https://github.com/intsab/Flutter-MVVM/blob/master/ScreenShots/2-Registration.jpeg" alt="Registration Screen" width="250"/>
 <img src="https://github.com/intsab/Flutter-MVVM/blob/master/ScreenShots/3-Login.jpeg" alt="Login Screen" width="250"/>
