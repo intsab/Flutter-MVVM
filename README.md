@@ -1,18 +1,20 @@
-# private_communication
+# Flutter Sample App Using MVVM
 
-Create Private contacts & Call them. Contacts will not be save in Contacts App
+Create Private contacts & Call them. Contacts will not be save in Contacts of phone. they will be in local database of application!
 
 ## Features
 
-Flutter Project
+Language: Dart
 
-Stateless and StateFull Widgets
+### Using:
 
-Custom Widgets
+Stateless and StateFull Widgets, Custom Widgets
 
-Floor DB
+Floor/Room Database for Saving contacts
 
-Firebase Auth Plugin
+Firebase Auth Plugin for Login and Registration
+
+Async Programming
 
 ## Screenshots
 <table>
